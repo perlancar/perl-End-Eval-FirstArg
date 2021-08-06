@@ -43,7 +43,7 @@ basically for convenience in one-liners.
 
 =head1 SEE ALSO
 
-Other C<End::Eval::*> (like L<End::Eval> and L<End::Eval>) and C<End::*>
+Other C<End::Eval::*> (like L<End::Eval> and L<End::Eval::Env>) and C<End::*>
 modules.
 
 Other C<Devel::End::*> modules (but this namespace is deprecated in favor of
