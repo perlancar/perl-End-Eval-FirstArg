@@ -16,6 +16,7 @@ sub import {
 
 END {
     $code = '' unless defined $code;
+    print "DEBUG: eval-ing $code ...\n" if $ENV{DEBUG};
     eval "no strict; no warnings; $code;";
     die if $@;
 }
